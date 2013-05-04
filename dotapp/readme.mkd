@@ -1,0 +1,8 @@
+# dotapp
+
+OS X application bundle wrappers, see <http://dotapp.github.io>.
+
+Cloned as submodules within a directory in my `$HOME` and launched via Alfred
+2; `mds`/Spotlight indexes the bundle, meaning they don't necessarily have to
+be installed within `/Applications`. You can append `.noindex` to prevent this
+behaviour.

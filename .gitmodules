@@ -1,0 +1,9 @@
+[submodule "spoof-mac"]
+	path = spoof-mac
+	url = https://github.com/tlvince/spoof-mac-osx.git
+[submodule "dotapp/Chtmp.app"]
+	path = dotapp/Chtmp.app
+	url = https://github.com/dotapp/Chtmp.app.git
+[submodule "dotapp/Manganese.app"]
+	path = dotapp/Manganese.app
+	url = https://github.com/dotapp/Manganese.app.git
