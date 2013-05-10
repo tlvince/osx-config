@@ -22,6 +22,9 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 # Set standby delay to 12 hours (default is 1 hour)
 sudo pmset -a standbydelay 43200
 
+# Disable sudden motion sensor (SSD-only tweak)
+sudo pmset -a sms 0
+
 # Menu bar: disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
