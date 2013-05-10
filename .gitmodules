@@ -7,3 +7,6 @@
 [submodule "dotapp/Manganese.app"]
 	path = dotapp/Manganese.app
 	url = https://github.com/dotapp/Manganese.app.git
+[submodule "noatime-osx"]
+	path = noatime-osx
+	url = https://github.com/tlvince/noatime-osx.git
