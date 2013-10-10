@@ -6,6 +6,3 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 # Android (brew)
 export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
-
-# Media player
-export PLAYER="open -a VLC.app --args"
