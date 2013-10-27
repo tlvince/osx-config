@@ -1,12 +1,12 @@
-[submodule "spoof-mac"]
-	path = spoof-mac
+[submodule "modules/spoof-mac"]
+	path = modules/spoof-mac
 	url = https://github.com/tlvince/spoof-mac-osx.git
-[submodule "dotapp/Chtmp.app"]
-	path = dotapp/Chtmp.app
+[submodule "modules/dotapp/Chtmp.app"]
+	path = modules/dotapp/Chtmp.app
 	url = https://github.com/dotapp/Chtmp.app.git
-[submodule "dotapp/Manganese.app"]
-	path = dotapp/Manganese.app
+[submodule "modules/dotapp/Manganese.app"]
+	path = modules/dotapp/Manganese.app
 	url = https://github.com/dotapp/Manganese.app.git
-[submodule "noatime-osx"]
-	path = noatime-osx
+[submodule "modules/noatime-osx"]
+	path = modules/noatime-osx
 	url = https://github.com/tlvince/noatime-osx.git
