@@ -10,12 +10,10 @@ dos2unix
 editorconfig
 git
 git-extras
-gnupg2
 heroku-toolbelt
 htop-osx
 hub
 irssi
-keychain
 mongodb
 msmtp
 newsbeuter
@@ -34,3 +32,4 @@ watch
 z
 zsh
 zsh-completions
+links
