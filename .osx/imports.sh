@@ -1,4 +1,4 @@
 #!/bin/sh
 
 z="/usr/local/etc/profile.d/z.sh"
-[ -f "$z" ] && source "$z"
+[ -f "$z" ] && { source "$z"; alias j="z"; }
