@@ -4,12 +4,24 @@ _have() { command -v "$1" >/dev/null; }
 
 _have "brew" || ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-brew update
-brew install git zsh tree htop-osx tmux hub
-brew install vim --disable-nls --without-ruby
+# brew update
 
-brew tap tlvince/homebrew-tlvince
-brew install tlvince/tlvince/mutt --HEAD --mua \
-  --with-confirm-attachment-patch \
-  --with-confirm-crypt-hook-patch \
-  --with-pgp-verbose-mime-patch
+BREWS=".brew"
+# Iterate so options are preserved
+[ -f "$BREWS" ] && for i in $(cat "$BREWS"); do brew install $i; done
+
+_have "mutt" || {
+  brew tap tlvince/homebrew-tlvince
+  brew install tlvince/tlvince/mutt --HEAD --mua \
+    --with-confirm-attachment-patch \
+    --with-confirm-crypt-hook-patch \
+    --with-pgp-verbose-mime-patch
+}
+
+brew cask >/dev/null 2>&1 || {
+  brew tap phinze/homebrew-cask
+  brew install brew-cask
+}
+
+CASKS=".cask"
+[ -f "$CASKS" ] && brew cask install $(<"$CASKS")

@@ -1,0 +1,37 @@
+curl-ca-bundle
+aria2
+aspell --with-lang-en
+autossh
+bitlbee --with-libotr
+browser
+dict
+diffpdf
+dnscrypt-proxy
+dos2unix
+editorconfig
+git
+git-extras
+gnupg2
+heroku-toolbelt
+htop-osx
+hub
+irssi
+keychain
+mongodb
+msmtp
+newsbeuter
+node
+offlineimap
+p7zip
+pass
+quvi
+reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
+ssh-copy-id
+tmux
+tree
+urlview
+vim --disable-nls --without-ruby
+watch
+z
+zsh
+zsh-completions
