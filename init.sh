@@ -8,7 +8,11 @@ _have "brew" || ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 BREWS=".brew"
 # Iterate so options are preserved
-[ -f "$BREWS" ] && for i in $(cat "$BREWS"); do brew install $i; done
+[ -f "$BREWS" ] && {
+  while read -r formula; do
+    brew install $formula
+  done < "$BREWS"
+}
 
 _have "mutt" || {
   brew tap tlvince/homebrew-tlvince

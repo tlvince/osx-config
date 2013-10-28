@@ -5,7 +5,6 @@ autossh
 bitlbee --with-libotr
 browser
 dict
-diffpdf
 dnscrypt-proxy
 dos2unix
 editorconfig
