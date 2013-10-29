@@ -22,6 +22,8 @@ _have "mutt" || {
     --with-pgp-verbose-mime-patch
 }
 
+_have "mpv" || { brew tap mpv-player/mpv; brew install mpv; }
+
 brew cask >/dev/null 2>&1 || {
   brew tap phinze/homebrew-cask
   brew install brew-cask
