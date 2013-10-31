@@ -8,11 +8,11 @@ dict
 dnscrypt-proxy
 dos2unix
 editorconfig
-git
+git --without-completions
 git-extras
 heroku-toolbelt
 htop-osx
-hub
+hub --HEAD
 irssi
 mongodb
 msmtp
