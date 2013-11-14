@@ -10,6 +10,3 @@
 [submodule ".osx/modules/noatime-osx"]
 	path = .osx/modules/noatime-osx
 	url = https://github.com/tlvince/noatime-osx.git
-[submodule ".osx/vendor/chriskempson/base16-shell"]
-	path = .osx/vendor/chriskempson/base16-shell
-	url = https://github.com/chriskempson/base16-shell.git
