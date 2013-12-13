@@ -34,3 +34,9 @@ brew cask >/dev/null 2>&1 || {
 
 CASKS=".cask"
 [ -f "$CASKS" ] && brew cask install $(<"$CASKS")
+
+_have "tlmgr" && {
+  sudo tlmgr update --self
+  LATEXES=".basictex"
+  [ -f "$LATEXES" ] && sudo tlmgr install $(<"$LATEXES")
+}
