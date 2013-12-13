@@ -37,3 +37,4 @@ coreutils
 keychain
 wkhtmltopdf
 gnu-sed
+stow
