@@ -13,3 +13,6 @@ export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
 # KDE (brewed)
 export KDEDIR="/usr/local"
 export KDEDIRS="$KDEDIRS:$HOME/Library/Preferences/KDE:$KDEDIR"
+
+# Karma tests
+export CHROME_BIN="/opt/chromium/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
