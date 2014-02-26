@@ -16,3 +16,4 @@ export KDEDIRS="$KDEDIRS:$HOME/Library/Preferences/KDE:$KDEDIR"
 
 # Karma tests
 export CHROME_BIN="/opt/chromium/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+export FIREFOX_BIN="/opt/homebrew-cask/Caskroom/firefox/latest/Firefox.app/Contents/MacOS/firefox"
