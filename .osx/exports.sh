@@ -7,6 +7,9 @@ export PATH="$PATH:/usr/local/share/npm/bin"
 # BasicTeX (casked)
 export PATH="$PATH:/usr/local/texlive/2013basic/bin/x86_64-darwin"
 
+# gcc-arm
+export PATH="$PATH:/opt/gcc-arm/bin"
+
 # Android (brewed)
 export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
 
