@@ -22,7 +22,7 @@ offlineimap
 p7zip
 pass
 quvi
-reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
+reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 ssh-copy-id
 tmux
 tree
