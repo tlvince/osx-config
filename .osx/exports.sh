@@ -5,7 +5,7 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="$PATH:/usr/local/share/npm/bin"
 
 # BasicTeX (casked)
-export PATH="$PATH:/usr/local/texlive/2013basic/bin/x86_64-darwin"
+export PATH="$PATH:/usr/texbin"
 
 # gcc-arm
 export PATH="$PATH:/opt/gcc-arm/bin"
