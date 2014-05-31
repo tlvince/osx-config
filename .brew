@@ -1,4 +1,3 @@
-aria2
 aspell --with-lang-en
 autossh
 bitlbee --with-libotr
@@ -11,12 +10,17 @@ dnscrypt-proxy
 dos2unix
 editorconfig
 exiftool
+get_iplayer
+gist
 git --without-completions
 git-extras
 gnu-sed
 heroku-toolbelt
 htop-osx
 hub --HEAD
+imagemagick
+imagesnap
+iodine
 irssi
 keychain
 links
@@ -26,11 +30,14 @@ newsbeuter
 node
 offlineimap
 p7zip
+pandoc
+pandoc-citeproc
 pass
 quvi
 reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 ssh-copy-id
 stow
+the_silver_searcher
 tmux
 tree
 urlview
