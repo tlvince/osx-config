@@ -47,7 +47,12 @@ _have "tlmgr" && {
   [ -f "$LATEXES" ] && sudo tlmgr install $(<"$LATEXES")
 }
 
-
 _have "pip" || sudo easy_install pip
 PIPS=".pip"
 sudo pip install $(<"$PIPS")
+
+_have "port" && {
+  sudo port selfupdate 
+  PORTS=".port"
+  sudo port install $(<"$PORTS")
+}
