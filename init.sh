@@ -2,7 +2,7 @@
 
 _have() { command -v "$1" >/dev/null; }
 
-_have "brew" || ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+_have "brew" || ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # brew update
 
@@ -24,12 +24,18 @@ _have "mutt" || {
 
 _have "mpv" || {
   brew tap mpv-player/mpv
+  brew install --HEAD libass-ct
   brew install mpv --with-libquvi
 }
 
+_have "get_iplayer" || {
+  brew tap dinkypumpkin/get_iplayer
+  brew install rtmpdump atomicparsley id3v2 lame ffmpeg get_iplayer
+}
+
 brew cask >/dev/null 2>&1 || {
-  brew tap phinze/homebrew-cask
-  brew install brew-cask
+  brew install caskroom/cask/brew-cask
+  brew tap caskroom/versions
 }
 
 CASKS=".cask"
