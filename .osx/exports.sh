@@ -10,6 +10,9 @@ export PATH="$PATH:/usr/texbin"
 # gcc-arm
 export PATH="$PATH:/opt/gcc-arm/bin"
 
+# Macports
+export PATH="$PATH:/opt/local/bin"
+
 # Android (brewed)
 export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
 
