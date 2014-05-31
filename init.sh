@@ -46,3 +46,8 @@ _have "tlmgr" && {
   LATEXES=".basictex"
   [ -f "$LATEXES" ] && sudo tlmgr install $(<"$LATEXES")
 }
+
+
+_have "pip" || sudo easy_install pip
+PIPS=".pip"
+sudo pip install $(<"$PIPS")
