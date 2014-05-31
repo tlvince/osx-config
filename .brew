@@ -1,19 +1,25 @@
-curl-ca-bundle
 aria2
 aspell --with-lang-en
 autossh
 bitlbee --with-libotr
 browser
+coreutils
+curl-ca-bundle
 dict
+diction
 dnscrypt-proxy
 dos2unix
 editorconfig
+exiftool
 git --without-completions
 git-extras
+gnu-sed
 heroku-toolbelt
 htop-osx
 hub --HEAD
 irssi
+keychain
+links
 mongodb
 msmtp
 newsbeuter
@@ -24,19 +30,13 @@ pass
 quvi
 reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 ssh-copy-id
+stow
 tmux
 tree
 urlview
 vim --disable-nls --without-ruby
 watch
+wkhtmltopdf
 z
 zsh
 zsh-completions
-links
-coreutils
-keychain
-wkhtmltopdf
-gnu-sed
-stow
-exiftool
-diction
