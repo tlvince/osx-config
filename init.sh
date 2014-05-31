@@ -16,7 +16,7 @@ BREWS=".brew"
 
 _have "mutt" || {
   brew tap tlvince/homebrew-tlvince
-  brew install tlvince/tlvince/mutt --HEAD --mua \
+  brew install tlvince/tlvince/mutt --mua \
     --with-confirm-attachment-patch \
     --with-confirm-crypt-hook-patch \
     --with-pgp-verbose-mime-patch
