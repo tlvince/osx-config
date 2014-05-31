@@ -3,14 +3,12 @@ autossh
 bitlbee --with-libotr
 browser
 coreutils
-curl-ca-bundle
 dict
 diction
 dnscrypt-proxy
 dos2unix
 editorconfig
 exiftool
-get_iplayer
 gist
 git --without-completions
 git-extras
@@ -43,7 +41,6 @@ tree
 urlview
 vim --disable-nls --without-ruby
 watch
-wkhtmltopdf
 z
 zsh
 zsh-completions
