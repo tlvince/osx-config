@@ -33,6 +33,7 @@ p7zip
 pandoc
 pandoc-citeproc
 pass
+phantomjs
 quvi
 reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 ssh-copy-id
