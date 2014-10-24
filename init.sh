@@ -2,9 +2,7 @@
 
 _have() { command -v "$1" >/dev/null; }
 
-_have "brew" || ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
-# brew update
+_have "brew" || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 BREWS=".brew"
 # Iterate so options are preserved
@@ -50,9 +48,3 @@ _have "tlmgr" && {
 _have "pip" || sudo easy_install pip
 PIPS=".pip"
 sudo pip install $(<"$PIPS")
-
-_have "port" && {
-  sudo port selfupdate 
-  PORTS=".port"
-  sudo port install $(<"$PORTS")
-}
