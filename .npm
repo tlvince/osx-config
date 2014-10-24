@@ -1,6 +1,7 @@
 bower
 cca
 coffeelint
+eslint
 generator-angular
 grunt-cli
 jshint
