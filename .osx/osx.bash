@@ -173,8 +173,8 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# Save screenshots to the desktop
-screenshots="$HOME/Pictures/computing/screenshots"
+# Save screenshots to a sane place
+screenshots="$HOME/Pictures/screenshots"
 mkdir -p "$screenshots"
 defaults write com.apple.screencapture location -string "$screenshots"
 
