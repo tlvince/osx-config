@@ -422,6 +422,13 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 # Add a context menu item for showing the Web Inspector in web views
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
+# Disable autofill
+defaults write com.apple.Safari AllowBypassOfAutocompleteOff -int 0
+defaults write com.apple.Safari AutoFillFromAddressBook -int 0
+defaults write com.apple.Safari AutoFillPasswords -int 0
+defaults write com.apple.Safari AutoFillCreditCardData -int 0
+defaults write com.apple.Safari AutoFillMiscellaneousForms -int 0
+
 ###############################################################################
 # Mail                                                                        #
 ###############################################################################
