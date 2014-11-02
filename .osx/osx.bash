@@ -558,6 +558,22 @@ defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 defaults write com.apple.appstore ShowDebugMenu -bool true
 
 ###############################################################################
+# Security Tweaks                                                             #
+###############################################################################
+
+# Enable Firewall.
+# 0 = off
+# 1 = on for specific services
+# 2 = on for essential services
+defaults write /Library/Preferences/com.apple.alf globalstate -int 2
+
+# Disable IR remote control.
+defaults write /Library/Preferences/com.apple.driver.AppleIRController DeviceEnabled -bool false
+
+# Turn Bluetooth off.
+defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
