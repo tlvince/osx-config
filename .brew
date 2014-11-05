@@ -35,7 +35,7 @@ pandoc-citeproc
 pass
 phantomjs
 quvi
-reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
+reattach-to-user-namespace
 ssh-copy-id
 stow
 the_silver_searcher
