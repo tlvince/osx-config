@@ -448,11 +448,16 @@ defaults write com.apple.mail DraftsViewerAttributes -dict-add "DisplayInThreade
 defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortedDescending" -string "yes"
 defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -string "received-date"
 
-# Disable inline attachments (just show the icons)
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+# Compose in plain text
+defaults write com.apple.mail PreferPlainText -bool true
+defaults write com.apple.mail SendFormat -string "Plain"
 
-# Disable automatic spell checking
-defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
+# Manually check for new email
+defaults write com.apple.mail AutoFetch -int 0
+defaults write com.apple.mail PollTime -int 0
+
+# Disable sounds
+defaults write com.apple.mail PlayMailSounds -int 0
 
 ###############################################################################
 # Spotlight                                                                   #
