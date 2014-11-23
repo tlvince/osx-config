@@ -34,7 +34,6 @@ pandoc
 pandoc-citeproc
 pass
 phantomjs
-quvi
 reattach-to-user-namespace
 ssh-copy-id
 stow
@@ -44,6 +43,7 @@ tree
 urlview
 vim --disable-nls --without-ruby
 watch
+youtube-dl --with-rtmpdump
 z
 zsh
 zsh-completions
