@@ -22,13 +22,14 @@ _have "mutt" || {
 
 _have "mpv" || {
   brew tap mpv-player/mpv
+  brew install ffmpeg --with-openssl
   brew install --HEAD mpv-player/mpv/libass-ct
   brew install --HEAD mpv
 }
 
 _have "get_iplayer" || {
   brew tap dinkypumpkin/get_iplayer
-  brew install rtmpdump atomicparsley id3v2 lame ffmpeg get_iplayer
+  brew install rtmpdump atomicparsley id3v2 lame get_iplayer
 }
 
 brew cask >/dev/null 2>&1 || {
