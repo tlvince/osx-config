@@ -22,8 +22,8 @@ _have "mutt" || {
 
 _have "mpv" || {
   brew tap mpv-player/mpv
-  brew install --HEAD libass-ct
-  brew install mpv --with-libquvi
+  brew install --HEAD mpv-player/mpv/libass-ct
+  brew install --HEAD mpv
 }
 
 _have "get_iplayer" || {
