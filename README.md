@@ -4,7 +4,7 @@ My OS X-specific set up.
 
 ## Author
 
-© 2013 Tom Vincent <http://tlvince.com/contact>
+© 2015 Tom Vincent <https://tlvince.com/contact>
 
 ## License
 
