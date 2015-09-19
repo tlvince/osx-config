@@ -3,6 +3,7 @@ autossh
 bitlbee --with-libotr
 browser
 coreutils
+ctags
 dict
 diction
 dnscrypt-proxy
@@ -25,9 +26,10 @@ keychain
 links
 mongodb
 msmtp
-newsbeuter
+n
+ncdu
 node
-offlineimap
+offline-imap
 p7zip
 pandoc
 pandoc-citeproc
