@@ -49,8 +49,3 @@ _have "tlmgr" && {
 _have "pip" || sudo easy_install pip
 PIPS=".pip"
 sudo pip install $(<"$PIPS")
-
-_have "gem" && {
-  GEMS=".gem"
-  sudo gem install $(<"$GEMS")
-}
