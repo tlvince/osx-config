@@ -35,6 +35,7 @@ pandoc
 pandoc-citeproc
 pass
 phantomjs
+python3
 reattach-to-user-namespace
 ssh-copy-id
 stow

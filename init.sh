@@ -46,6 +46,7 @@ _have "tlmgr" && {
   [ -f "$LATEXES" ] && sudo tlmgr install $(<"$LATEXES")
 }
 
-_have "pip" || sudo easy_install pip
-PIPS=".pip"
-sudo pip install $(<"$PIPS")
+_have "pip3" && {
+  PIPS=".pip"
+  pip3 install --user $(<"$PIPS")
+}
