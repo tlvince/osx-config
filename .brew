@@ -11,6 +11,7 @@ dos2unix
 duplicity
 editorconfig
 exiftool
+fzf
 gist
 git --without-completions
 git-extras
