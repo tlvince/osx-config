@@ -11,8 +11,7 @@ export ANDROID_HOME="/usr/local/opt/android-sdk"
 export PATH="$PATH:/opt/local/bin"
 
 # Karma
-export CHROME_BIN="/opt/homebrew-cask/Caskroom/chromium/latest/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
-export FIREFOX_BIN="/opt/homebrew-cask/Caskroom/firefox/latest/Firefox.app/Contents/MacOS/firefox"
+export CHROME_BIN="/Applications/Chromium.app/Contents/MacOS/Chromium"
 
 # Pip
 export PATH="$PATH:$HOME/Library/Python/2.7/bin"
