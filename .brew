@@ -8,6 +8,8 @@ dict
 diction
 diff-so-fancy
 dnscrypt-proxy
+docker-completion
+docker-compose-completion
 dos2unix
 duplicity
 editorconfig
@@ -17,6 +19,7 @@ gist
 git --without-completions
 git-extras
 gnu-sed
+hadolint
 heroku-toolbelt
 htop-osx
 hub --HEAD
@@ -30,6 +33,7 @@ mongodb
 msmtp
 n
 ncdu
+neovim
 node
 offline-imap
 p7zip
@@ -37,16 +41,24 @@ pandoc
 pandoc-citeproc
 pass
 phantomjs
+proselint
 python3
 reattach-to-user-namespace
+shellcheck
 ssh-copy-id
 stow
+terraform
+terraform-docs
+terraform_landscape
+tflint
 the_silver_searcher
 tmux
 tree
+typescript
 urlview
-vim --disable-nls --without-ruby
 watch
+watchman
+yarn
 youtube-dl --with-rtmpdump
 z
 zsh
