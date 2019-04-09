@@ -3,6 +3,9 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
 
+# Site
+export PATH="$PATH:/opt/local/bin"
+
 # Node (brewed)
 export PATH="$PATH:/usr/local/share/npm/bin"
 
@@ -16,12 +19,15 @@ export CHROME_BIN="/Applications/Chromium.app/Contents/MacOS/Chromium"
 export PATH="$PATH:$HOME/Library/Python/2.7/bin"
 export PATH="$PATH:$HOME/Library/Python/3.5/bin"
 
-# Local
-export PATH="$HOME/bin:$PATH"
+# rbenv
+export PATH="$HOME/.rbenv/shims:$PATH"
 
 # tj/n
 export N_PREFIX="$HOME/.local"
 export PATH="$HOME/.local/bin:$PATH"
+
+# Local
+export PATH="$HOME/bin:$PATH"
 
 # https://github.com/Homebrew/homebrew-core/issues/14737#issuecomment-319797811
 GPG_TTY=$(tty)
