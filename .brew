@@ -1,6 +1,6 @@
 aspell --with-lang-en
 autossh
-bitlbee --with-libotr
+awscli
 browser
 coreutils
 ctags
@@ -21,12 +21,14 @@ git-extras
 gnu-sed
 hadolint
 heroku-toolbelt
-htop-osx
+htop
 hub --HEAD
 imagemagick
 imagesnap
 iodine
-irssi
+jpegoptim
+jq
+jsonlint
 keychain
 links
 mongodb
@@ -35,15 +37,14 @@ n
 ncdu
 neovim
 node
-offline-imap
+optipng
 p7zip
 pandoc
 pandoc-citeproc
+parallel
 pass
-phantomjs
 proselint
 python3
-reattach-to-user-namespace
 shellcheck
 ssh-copy-id
 stow
@@ -56,6 +57,7 @@ tmux
 tree
 typescript
 urlview
+vifm
 watch
 watchman
 yarn
