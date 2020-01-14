@@ -1,4 +1,4 @@
-aspell --with-lang-en
+aspell
 autossh
 awscli
 browser
@@ -16,13 +16,13 @@ editorconfig
 exiftool
 fzf
 gist
-git --without-completions
+git
 git-extras
 gnu-sed
 hadolint
 heroku-toolbelt
 htop
-hub --HEAD
+hub
 imagemagick
 imagesnap
 iodine
@@ -61,7 +61,7 @@ vifm
 watch
 watchman
 yarn
-youtube-dl --with-rtmpdump
+youtube-dl
 z
 zsh
 zsh-completions
