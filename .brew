@@ -43,6 +43,7 @@ pandoc
 pandoc-citeproc
 parallel
 pass
+pass-otp
 proselint
 python3
 shellcheck
