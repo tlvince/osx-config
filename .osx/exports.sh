@@ -26,9 +26,8 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 export N_PREFIX="$HOME/.local"
 export PATH="$HOME/.local/bin:$PATH"
 
+# coreutils (brewed)
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
 # Local
 export PATH="$HOME/bin:$PATH"
-
-# https://github.com/Homebrew/homebrew-core/issues/14737#issuecomment-319797811
-GPG_TTY=$(tty)
-export GPG_TTY
