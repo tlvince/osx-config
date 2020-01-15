@@ -32,3 +32,5 @@ _have "pip3" && {
   PIPS=".pip"
   pip3 install --user $(<"$PIPS")
 }
+
+tic tmux-256color.terminfo
